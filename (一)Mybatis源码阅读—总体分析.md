@@ -16,13 +16,13 @@
 
 Mybatis工作最重要的java接口，通过这个接口来执行命令，获取mapper以及管理事务 。SqlSession有两个子类，DefaultSqlSession和SqlSessionManager。这里主要讨论DefaultSqlSession。
 
-![SqlSession](img\SqlSession.png)
+![SqlSession](https://github.com/hanfeng21050/MyBatis/blob/master/img/SqlSession.png)
 
 #### Executor类
 
 Executor是mybatis的核心执行类，mybatis的大部分操作处理都是在executor上完成的
 
-![Executor](img\Executor.png)
+![Executor](https://github.com/hanfeng21050/MyBatis/blob/master/img/Executor.png)
 
  **BaseExecutor 主要是使用了模板设计模式（template）**, 共性被封装在 BaseExecutor 中 , 容易变化的内容被分离到了子类中 。 
 
