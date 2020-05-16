@@ -342,4 +342,4 @@ protected void pushConnection(PooledConnection conn) throws SQLException {
 
 ##### 3.流程图
 
-![从连接池获取连接](img\从连接池获取连接.png)
+![从连接池获取连接](https://github.com/hanfeng21050/MyBatis/blob/master/img/%E4%BB%8E%E8%BF%9E%E6%8E%A5%E6%B1%A0%E8%8E%B7%E5%8F%96%E8%BF%9E%E6%8E%A5.png)
