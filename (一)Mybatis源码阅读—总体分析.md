@@ -73,7 +73,7 @@ public CachingExecutor(Executor delegate) {
 
  StatementHandler 负责操作 Statement 对象与数据库进行交流，
 
-![StatementHandler](img\StatementHandler.png)
+![StatementHandler](https://github.com/hanfeng21050/MyBatis/blob/master/img/StatementHandler.png)
 
 - RoutingStatementHandler，这是一个封装类，它不提供具体的实现，只是根据Executor的类型，创建不同的类型StatementHandler。
 
